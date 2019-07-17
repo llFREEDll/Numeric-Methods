@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="M03.M03Controller">
+    <stylesheets>
+        <URL value="@m03.css" />
+    </stylesheets>
+   <children>
+      <Button layoutX="424.0" layoutY="43.0" mnemonicParsing="false" onAction="#Evaluate" text="Evaluate" />
+      <TextField fx:id="tfx0" layoutX="63.0" layoutY="38.0" prefHeight="25.0" prefWidth="45.0" />
+      <TextField fx:id="tfy0" layoutX="173.0" layoutY="38.0" prefHeight="25.0" prefWidth="45.0" />
+      <TextField fx:id="tfx1" layoutX="63.0" layoutY="84.0" prefHeight="0.0" prefWidth="45.0" />
+      <TextField fx:id="tfy1" layoutX="173.0" layoutY="84.0" prefHeight="25.0" prefWidth="45.0" />
+      <Label layoutX="25.0" layoutY="37.0" text="x0" />
+      <Label layoutX="25.0" layoutY="83.0" text="x1" />
+      <Label layoutX="129.0" layoutY="37.0" text="y0" />
+      <Label layoutX="129.0" layoutY="83.0" text="y1" />
+      <Label layoutX="247.0" layoutY="37.0" text="x=" />
+      <TextField fx:id="tfx" layoutX="278.0" layoutY="38.0" prefHeight="25.0" prefWidth="45.0" />
+      <Label fx:id="show" layoutX="21.0" layoutY="131.0" text="f(x)=?" />
+      <Pane fx:id="root" layoutX="147.0" layoutY="110.0" prefHeight="337.0" prefWidth="454.0" />
+      <Button layoutX="46.0" layoutY="375.0" mnemonicParsing="false" onAction="#GoBack" text="Back" />
+   </children>
+</AnchorPane>

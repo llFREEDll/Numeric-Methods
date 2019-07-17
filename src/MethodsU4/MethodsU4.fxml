@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MethodsU4.MethodsU4Controller">
+    <stylesheets>
+        <URL value="@methodsu4.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="243.0" layoutY="187.0" prefHeight="10.0" prefWidth="115.0" text="CHOOSE ONE" />
+      <Button layoutX="93.0" layoutY="214.0" mnemonicParsing="false" onAction="#OnPush3" text="linear interpolation" />
+      <Button layoutX="358.0" layoutY="145.0" mnemonicParsing="false" onAction="#OnPush2" text="quadratic interpolation" />
+      <Button layoutX="109.0" layoutY="145.0" mnemonicParsing="false" onAction="#OnPush1" text="linear regression" />
+      <Button layoutX="358.0" layoutY="214.0" mnemonicParsing="false" onAction="#OnPush4" text="quadratic regression" />
+   </children>
+</AnchorPane>

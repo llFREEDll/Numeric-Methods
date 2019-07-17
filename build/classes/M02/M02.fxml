@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="M02.M02Controller">
+    <stylesheets>
+        <URL value="@m02.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="178.0" layoutY="32.0" text="x" />
+      <Label layoutX="262.0" layoutY="32.0" prefHeight="27.0" prefWidth="10.0" text="y" />
+      <TextField fx:id="tfx1" layoutX="175.0" layoutY="63.0" prefHeight="25.0" prefWidth="36.0" />
+      <TextField fx:id="tfy1" layoutX="244.0" layoutY="63.0" prefHeight="25.0" prefWidth="36.0" />
+      <TextField fx:id="tfy2" layoutX="244.0" layoutY="101.0" prefHeight="25.0" prefWidth="36.0" />
+      <TextField fx:id="tfy3" layoutX="244.0" layoutY="136.0" prefHeight="25.0" prefWidth="36.0" />
+      <TextField fx:id="tfx2" layoutX="175.0" layoutY="101.0" prefHeight="25.0" prefWidth="36.0" />
+      <TextField fx:id="tfx3" layoutX="175.0" layoutY="136.0" prefHeight="25.0" prefWidth="36.0" />
+      <Button layoutX="355.0" layoutY="93.0" mnemonicParsing="false" onAction="#Evaluate" text="Evaluate" />
+      <Label fx:id="polinomio" layoutX="234.0" layoutY="214.0" text="p(x)=?" />
+      <Button layoutX="264.0" layoutY="354.0" mnemonicParsing="false" onAction="#GoBack" text="Back" />
+   </children>
+</AnchorPane>
